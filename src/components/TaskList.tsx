@@ -1,6 +1,6 @@
 import SingleTask from "@/components/Task";
-import { Task } from "@/components/types";
 import { useCurrentUser } from "@/hooks/state/useCurrentUser";
+import { Task } from "@/types";
 import { firestore } from "@/utils/firebase";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
