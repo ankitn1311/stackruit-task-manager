@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import "../styles/globals.css";
-import { AppPropsWithLayout } from "../globalTypes";
+import { AppPropsWithLayout } from "../types";
 import { DefaultAppLayout } from "../layouts/DefaultAppLayout";
 import { toastDefaultOptions } from "@/utils/toast";
 import { Toaster } from "react-hot-toast";

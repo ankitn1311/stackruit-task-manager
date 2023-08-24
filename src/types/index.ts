@@ -9,3 +9,10 @@ export type NextPageWithLayout = NextPage & {
 export type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
+
+export type Task = {
+  id?: string;
+  name: string;
+  description: string;
+  completed: boolean;
+};

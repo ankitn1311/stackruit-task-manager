@@ -1,6 +1,6 @@
 import { Button } from "@/components/Button";
-import { Task } from "@/components/types";
 import { useEditTask } from "@/hooks/state/useEditTask";
+import { Task } from "@/types";
 import { CustomToast } from "@/utils/CustomToast";
 import { firestore } from "@/utils/firebase";
 import { deleteDoc, doc, updateDoc } from "firebase/firestore";

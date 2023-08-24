@@ -1,4 +1,4 @@
-import { Task } from "@/components/types";
+import { Task } from "@/types";
 import { atom, useAtom } from "jotai";
 
 const editTaskAtom = atom<Task | null>(null);
